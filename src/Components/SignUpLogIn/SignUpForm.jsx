@@ -57,9 +57,6 @@ const SignUpForm = () => {
                     onClick={switchAuthModeHandler}>SignUp</button></span>}
             </div>)}
 
-
-
-
         </>
     )
 }
