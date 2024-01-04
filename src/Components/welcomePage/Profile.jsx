@@ -2,6 +2,7 @@ import React from 'react'
 import classes from "./Profile.module.css";
 
 const Profile = () => {
+    
     return (
         <>
 
@@ -10,7 +11,7 @@ const Profile = () => {
                     <div className={classes.headerDetail}>
                         <p>Welcome To Expense Tracker</p>
                         <span className={classes.incomplete}>
-                            {!isLocation ? "Your Profile is incompelete." : <React.Fragment>Your Profile is <strong>x%</strong>complete</React.Fragment>}
+                            {!isLocation ? "Your Profile is incompelete." : <>Your Profile is <strong>x%</strong>complete</>}
                             <Link onClick={updateHandler}>Complete Now</Link>
                         </span>
                     </div>

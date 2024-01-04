@@ -4,7 +4,7 @@ import SignUpForm from './Components/SignUpLogIn/SignUpForm'
 const App = () => {
   return (
     <>
-    <SignUpForm/>
+    <h1>Expensis Tracker</h1>
     </>
   )
 }
